@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10626B0F3459317D14A27DC31F5BD902 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB46BAFA9963B2AC3F6FCE7F37F115 /* ReplaceMe.swift */; };
 		3383964267F50C7E2AA65CCBC72A7DA5 /* Pods-xmtpChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4448D779EAAE845C77551AAA4659FEFB /* Pods-xmtpChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54C8F5CEF64EE7456E2400B2E2AD8310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F1442C82B63BC14006D609E /* xmtpChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1442C72B63BC14006D609E /* xmtpChat.swift */; };
+		5F1442CB2B63BCBD006D609E /* xmtpChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1442C72B63BC14006D609E /* xmtpChat.swift */; };
+		5F1442CC2B63BCBD006D609E /* xmtpChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1442C72B63BC14006D609E /* xmtpChat.swift */; };
 		69268B78B6A8309DECD1BB28326599FF /* Pods-xmtpChat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D8153AF92951A9530BEEBC1F4CF636 /* Pods-xmtpChat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		859F44CDF75BCB10E10937A30BD1F843 /* Pods-xmtpChat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE99D24447AB6080DF40A8C1B9FE83F7 /* Pods-xmtpChat_Example-dummy.m */; };
 		89E8BE1170E8B9711C04AB77FC43146B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -40,7 +42,6 @@
 		071230ACAABD3D79126BDF49268A0FCC /* Pods_xmtpChat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xmtpChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5DCAB8EE4C9C1138C11E0D87C9BFA2 /* Pods-xmtpChat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xmtpChat_Tests-dummy.m"; sourceTree = "<group>"; };
 		1398B66C368578F2ADCA86E9586DC8D2 /* xmtpChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = xmtpChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		14CB46BAFA9963B2AC3F6FCE7F37F115 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = xmtpChat/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1662D396EBF74B713E0AADD1F6635B3B /* xmtpChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = xmtpChat.release.xcconfig; sourceTree = "<group>"; };
 		1AB848394113F69E8002BFCF4364FE3E /* Pods-xmtpChat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xmtpChat_Example.modulemap"; sourceTree = "<group>"; };
 		314DD0EE5709F4AE68D4A4823C42BFFC /* Pods-xmtpChat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xmtpChat_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		540E1C827A5A07802629922BC104D334 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		56670CCD085F433193DE6379FBF62E22 /* xmtpChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "xmtpChat-dummy.m"; sourceTree = "<group>"; };
 		5E00920D0503969A8D2CB1734538F86A /* xmtpChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = xmtpChat.modulemap; sourceTree = "<group>"; };
+		5F1442C72B63BC14006D609E /* xmtpChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xmtpChat.swift; sourceTree = "<group>"; };
 		67AF00DEC6AAE79C03ECA65FCE472767 /* Pods-xmtpChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xmtpChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67D8153AF92951A9530BEEBC1F4CF636 /* Pods-xmtpChat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xmtpChat_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6CA770B8EAA89490D6912A022A701FE5 /* Pods-xmtpChat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xmtpChat_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -126,6 +128,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5F1442C62B63BBEA006D609E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F1442C72B63BC14006D609E /* xmtpChat.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7FF7A37EA2F0A668803A09AF8771A003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +180,7 @@
 		B7F4B5AE4434BC56DF53554DCB4F4C41 /* xmtpChat */ = {
 			isa = PBXGroup;
 			children = (
-				14CB46BAFA9963B2AC3F6FCE7F37F115 /* ReplaceMe.swift */,
+				5F1442C62B63BBEA006D609E /* Classes */,
 				35AA9ABBAA1B837C6DBB1779225A5F62 /* Pod */,
 				9C9FF7F8202CE768C3924C40E2015C5D /* Support Files */,
 			);
@@ -321,6 +331,9 @@
 					558FACF8AD30911E090BFDCADF443A6C = {
 						LastSwiftMigration = "";
 					};
+					BE868D69D3BB81B29BDA3D6F8260C78B = {
+						LastSwiftMigration = 1520;
+					};
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
@@ -372,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1442CB2B63BCBD006D609E /* xmtpChat.swift in Sources */,
 				D6A0D2E51BDA4CC0A6E0C8A4C8E2BA93 /* Pods-xmtpChat_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10626B0F3459317D14A27DC31F5BD902 /* ReplaceMe.swift in Sources */,
+				5F1442CC2B63BCBD006D609E /* xmtpChat.swift in Sources */,
 				FACCE4A091862C144613E7382060F356 /* xmtpChat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1442C82B63BC14006D609E /* xmtpChat.swift in Sources */,
 				859F44CDF75BCB10E10937A30BD1F843 /* Pods-xmtpChat_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +504,7 @@
 			baseConfigurationReference = 4D97552EF9A9E1701234E665AEFFA3DF /* Pods-xmtpChat_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -515,6 +531,8 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -587,6 +605,7 @@
 			baseConfigurationReference = 43F4705A3537BE5F77E27EEB04CE6C01 /* Pods-xmtpChat_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -613,6 +632,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

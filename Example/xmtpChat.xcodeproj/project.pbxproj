@@ -45,7 +45,7 @@
 		A2FD28CFB57F4E322A1331F7 /* Pods_xmtpChat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xmtpChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F0A86FD6F4A38A7CDD3BDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B650A097A1A6ABCE38370C49 /* Pods-xmtpChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtpChat_Example.debug.xcconfig"; path = "Target Support Files/Pods-xmtpChat_Example/Pods-xmtpChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5F7041F22C5CF5290F9D0A8 /* xmtpChat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = xmtpChat.podspec; path = ../xmtpChat.podspec; sourceTree = "<group>"; };
+		C5F7041F22C5CF5290F9D0A8 /* xmtpChat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = xmtpChat.podspec; path = ../xmtpChat.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8EE20F79BB66C828DCA62EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

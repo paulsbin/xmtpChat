@@ -1,0 +1,22 @@
+{
+  "name": "xmtpChat",
+  "version": "0.1.0",
+  "summary": "A short description of xmtpChat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Pavel Sukalin/xmtpChat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pavel Sukalin": "pavelsukalin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Pavel Sukalin/xmtpChat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "xmtpChat/Classes/**/*"
+}

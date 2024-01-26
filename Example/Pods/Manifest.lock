@@ -1,0 +1,16 @@
+PODS:
+  - xmtpChat (0.1.0)
+
+DEPENDENCIES:
+  - xmtpChat (from `../`)
+
+EXTERNAL SOURCES:
+  xmtpChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  xmtpChat: 75fcdfa370d42e2cf301c4cd155853e98c48fa01
+
+PODFILE CHECKSUM: e735ae0778d0a61a98051bc289916071294fa1df
+
+COCOAPODS: 1.14.3

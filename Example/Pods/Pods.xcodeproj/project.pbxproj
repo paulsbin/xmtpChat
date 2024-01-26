@@ -10,8 +10,6 @@
 		3383964267F50C7E2AA65CCBC72A7DA5 /* Pods-xmtpChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4448D779EAAE845C77551AAA4659FEFB /* Pods-xmtpChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54C8F5CEF64EE7456E2400B2E2AD8310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5F1442C82B63BC14006D609E /* xmtpChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1442C72B63BC14006D609E /* xmtpChat.swift */; };
-		5F1442CB2B63BCBD006D609E /* xmtpChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1442C72B63BC14006D609E /* xmtpChat.swift */; };
-		5F1442CC2B63BCBD006D609E /* xmtpChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1442C72B63BC14006D609E /* xmtpChat.swift */; };
 		69268B78B6A8309DECD1BB28326599FF /* Pods-xmtpChat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D8153AF92951A9530BEEBC1F4CF636 /* Pods-xmtpChat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		859F44CDF75BCB10E10937A30BD1F843 /* Pods-xmtpChat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE99D24447AB6080DF40A8C1B9FE83F7 /* Pods-xmtpChat_Example-dummy.m */; };
 		89E8BE1170E8B9711C04AB77FC43146B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -385,7 +383,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1442CB2B63BCBD006D609E /* xmtpChat.swift in Sources */,
 				D6A0D2E51BDA4CC0A6E0C8A4C8E2BA93 /* Pods-xmtpChat_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,7 +391,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1442CC2B63BCBD006D609E /* xmtpChat.swift in Sources */,
 				FACCE4A091862C144613E7382060F356 /* xmtpChat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
